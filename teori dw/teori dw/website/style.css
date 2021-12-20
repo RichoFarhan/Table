@@ -1,0 +1,279 @@
+#bawahan{
+    margin-top: 140px;
+}
+
+.carousel-inner img{
+    height: 300px;
+}
+
+.carousel-inner .carousel-item{
+    margin-top: 150px;
+}
+
+.title{
+    float: left;
+}
+
+#user{
+    color: black;
+    padding: 10px;
+}
+
+#second{
+    color: #000000;
+}
+
+.daleman{
+    color: rgb(44, 44, 196);
+}
+
+.navbar-toggler{
+    float: right;
+}
+
+p{
+    font-size: 16px;
+}
+
+.section-title{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+#navbarNav{
+    font-size: 16px;
+}
+
+.search-box{
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.search-box input{
+    border: 2px solid #000000;
+    z-index: 1;
+    width: 23px;
+    height: 23px;
+    transition: all .25s ease-in .25s;
+    color: transparent;
+    font-size:1em;
+    line-height: 30px;
+    border-radius: 25px;
+    transform: translate(25px, -2px);
+}
+.search-box input :hover{
+    cursor: pointer;
+}
+
+.search-box input:hover:focus{
+    cursor: text;
+}
+
+.search-box input:hover + span{
+    background: rgba(255, 255, 255, 2);
+}
+
+.search-box input:focus{
+    width: 200px;
+    padding: 0 10px;
+    outline: none;
+    color: black;
+    background: ffff;
+}
+
+.search-box input:focus+span{
+    width: 200px;
+}
+
+.search-box input:focus+span::before{
+    width: 2px;
+    opacity: 0;
+    transition: all .25s ease-in;
+}
+
+.search-box input:hover{
+    cursor: pointer;
+}
+
+.search-box input:hover:focus{
+    cursor: text;
+}
+
+.search-box input+span::before{
+    transition: all .25s ease-in .25s;
+    content: ' ';
+    position:absolute;
+    width: 8px;
+    height: 5px;
+    border-radius: 5px;
+    background: #000000;
+    transform: rotate(45deg) translate(26px);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(68, 66, 66);
+}
+
+.container .main-news{
+    margin-top:140px;
+}
+
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(231, 231, 231);
+}
+
+.samping img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    padding-bottom: 10px;
+}
+
+.gambar img{
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 250px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.kotak img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    width: 500px;
+    height: 380px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+ 
+.zoom-effect:hover .gambar img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.zoom-effect:hover .samping img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.container{
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.zoom-effect:hover .kotak img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+a:hover
+{
+    color: #519ac5fc;
+}
+.logo-wrapper
+{
+    text-transform: uppercase;
+    padding: 30px 0px;
+}
+.menu
+{
+    padding-left: 0px;
+    background: #519ac5fc;
+}
+.menu .container
+{
+    padding-left: 0px;
+}
+.menu-items .active
+{
+    background: #2483d6;
+}
+.menu .menu-items a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    display: block;
+}
+.menu .menu-items a:hover 
+{
+    background: #2483d6;
+}
+.thumb
+{
+    width: 100%;
+}
+.main-news
+{
+    margin-top:20px;
+}
+.main-news h3
+{
+    line-height: 0.85   
+}
+.main-news h3 a
+{
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.image
+{
+    overflow: hidden;
+}
+.image-sm
+{
+    max-height: 180px;
+}
+.image-sm img
+{
+    height: 180px;
+}
+.image-xs
+{
+    max-height: 160px;
+}
+.image-xxs
+{
+    max-height: 100px;
+}
+.image image
+{
+    object-fit: cover;
+}
+.font-large
+{
+    font-size: 0.9em!important;
+    font-weight: 600!important;
+}
+.bb-1{
+    padding: 20px 0px;
+    border-bottom: 1px solid #eee;
+}
+.section{
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+small{
+    color: #999;
+}
+.summary{
+    color: #777;
+}
+.trending .row{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.no-pad{
+    padding-left: 0px!important;
+}

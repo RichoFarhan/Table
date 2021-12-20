@@ -1,0 +1,45 @@
+<html>
+    <head>
+    <title>Sign In</title>
+        <link rel="stylesheet" type="text/css" href="logstyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class ="registerbox">
+        <img src="../gambar/man.png" class="bewok">
+            <h1>Buat Akun</h1>
+            <form>
+                <p>Nama Lengkap</p>
+                <input type="text" name="" placeholder="Budi Santoso" Required>
+                <p>Alamat Email</p>
+                <input type="email" name="" placeholder="4520210000@univpancasila.ac.id" Required>
+                <p>Password</p>
+                <input type="password" id="password" name="psw" placeholder="Masukkan Password" onkeyup='check();' Required>
+                <p>Konfirmasi Password</p>
+                <input type="password" id="conf_psw" name="conf_psw" placeholder="Konfirmasi Password" onkeyup='check();' Required>
+                <span id='message'></span>
+                <p>Kode Wartawan</p>
+                <input type="text" name="" placeholder="Masukan Kode" Required>
+                <input type="submit" name="" value="Daftar">
+            <a href="login.html">Sudah Punya Akun?</a><br>
+            </form>
+        </div>
+        <script>
+            var password = document.getElementById("password")
+            , conf_psw = document.getElementById("conf_psw");
+
+            function samainPW(){
+            if(password.value != conf_psw.value)
+            {
+                conf_psw.setCustomValidity("Passwords Tidak Sama");
+            } else
+            {
+                conf_psw.setCustomValidity('');
+            }
+            }
+
+            password.onchange = samainPW;
+            conf_psw.onkeyup = samainPW;
+        </script>
+    </body>
+</html>

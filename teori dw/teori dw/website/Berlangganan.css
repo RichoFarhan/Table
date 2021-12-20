@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+form{
+    text-align: left;
+    width: 400px;
+}
+
+.kanan{
+    margin-left: 80%;
+}

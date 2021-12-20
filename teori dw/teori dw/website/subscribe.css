@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(231, 231, 231);
+    font-family: sans-serif;
+}
+
+.kanan{
+    margin-left: 80%;
+}
+
+.Article{
+    padding: 20px;
+}
+
+#subs{
+    padding: 20px;
+}
+
+.miring{
+    color: red;
+    width: 100px;
+    height: 1px;
+    transform: rotate(-7deg);
+    content: '';
+    z-index: 2;
+    margin-top: -10px;
+}
+
+.border{
+    color: black;
+}
+.coret-miring{
+    color: grey;
+    font-size: 15px;
+}
+
+h4{
+    padding: 20px;
+}
+
+h5{
+    padding-top: 20px;
+}
+
+h1{
+    margin-top: -20px;
+    font-size: 50px;
+}
+
+h6{
+    margin-left: 20px;
+}
+
+.rp{
+    margin-right:80px ;
+    color: grey;
+}
+
+.harga{
+    margin-left: 250px;
+    text-align: center;
+    margin-top: -57px;
+    text-align: left;
+    color: grey;
+}
+
+hr{
+    color: grey;
+}
+
+#button{
+    padding: 10px;
+    width: 300px;
+}
+
+.navbar-toogler-icon{
+    float: right;
+}
+
+.awesome{
+    color: green;
+    position: absolute;
+    margin-left: -150px;
+}
+
+.row{
+    padding: 20px;
+}
+
+.penjelasan{
+    padding: 20px;
+}
+
+.container{
+    padding: 20px;
+    text-shadow: 100px;
+    border-radius: 20px;
+}
